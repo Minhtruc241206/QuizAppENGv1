@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="364.0" styleClass="container" stylesheets="@style1.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nmt.quizappengv1.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subject" text="Luyen Tap" />
+      <Button mnemonicParsing="false" onAction="#manageQuestion" styleClass="buttom" text="Quan Ly Cau Hoi" />
+      <Button mnemonicParsing="false" styleClass="buttom" text="Luyen Tap" />
+      <Button mnemonicParsing="false" styleClass="buttom" text="Button" />
+      <ComboBox fx:id="cmThemes" onAction="#Changetheme" prefWidth="150.0" styleClass="buttom" />
+   </children>
+</VBox>

@@ -1,0 +1,23 @@
+.container{
+    -fx-background-color: lightblue;
+    -fx-alignment: CENTER;
+    -fx-spacing: 15;
+}
+
+.subject{
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-stroke: gold;
+    -fx-stroke-width:3;
+    -fx-fill:red;
+}
+
+.buttom{
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-pref-width:250;
+    -fx-padding:10;
+    
+}
+    
